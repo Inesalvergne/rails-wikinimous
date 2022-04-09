@@ -1,8 +1,16 @@
-<h1> <%=  @article.title  %></h1>
-<p> <%=  @article.content  %></p>
-<p> <%= link_to "Edit this article", edit_article_path %>
-<p> <%= link_to "Delete this article",
-          article_path(@article),
-          method: :delete,
-          data: { confirm: "Are you sure?" } %>
-<p> <%= link_to "Go back to articles", articles_path %>
+
+<div class="container article-container">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <img class= "img-article" src="https://source.unsplash.com/random/900×700/?fruit">
+      <h1> <%=  @article.title  %></h1>
+      <hr>
+      <p> <%=  @article.content  %></p>
+      <p> <i class="bi bi-pencil"></i> <%= link_to "Edit this article", edit_article_path %> | <i class="bi bi-trash3"></i> <%= link_to "Delete this article",
+                article_path(@article),
+                method: :delete,
+                data: { confirm: "Are you sure?" } %> </p>
+      <p> <i class="bi bi-arrow-return-left"></i> <%= link_to "Go back to articles", articles_path %> </p>
+  </div>
+  </div>
+</div>

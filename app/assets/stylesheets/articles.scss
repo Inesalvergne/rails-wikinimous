@@ -34,3 +34,39 @@
 .navbar-nav>li>a:hover{
   color: rgba(255, 255, 255, 0.557);
 }
+
+.col-sm-8 {
+  width: 66.6666666667%;
+}
+
+.col-sm-offset-2 {
+  margin-left: 16.6666666667%;
+}
+
+.article-container{
+  margin-top: 50px;
+}
+
+.article-container h1{
+  color: rgba(134, 147, 171, 0.76);
+}
+
+.img-article{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.article-container a{
+  text-decoration: none;
+  color:rgb(134, 147, 171);
+}
+
+.article-container a:hover{
+  color: rgba(134, 147, 171, 0.76);
+}
+
+.article-container i{
+  color:rgba(134, 147, 171, 0.76);
+}
