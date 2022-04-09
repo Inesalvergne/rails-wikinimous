@@ -1,3 +1,36 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.container{
+  justify-content: left;
+}
+
+.container ul{
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+.container a{
+  text-decoration: none;
+}
+
+.article-title {
+  color: rgb(134, 147, 171);
+}
+
+.article-title:hover{
+  color: rgba(134, 147, 171, 0.76);
+}
+
+.icon-grey{
+  color: rgb(134, 147, 171)
+}
+
+.navbar-nav>li>a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-nav>li>a:hover{
+  color: rgba(255, 255, 255, 0.557);
+}
